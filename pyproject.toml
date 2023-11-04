@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qr-site"
+version = "0.1.0"
+description = ""
+authors = ["Nikita <erofeev.nik.it@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.104.1"}
+qrcode = "^7.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
