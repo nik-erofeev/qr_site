@@ -1,7 +1,7 @@
 import qrcode
 from fastapi import FastAPI
 from starlette.responses import StreamingResponse
-from io import BytesIO  # для сохр в памяти
+from io import BytesIO  
 import uvicorn
 
 app = FastAPI()
